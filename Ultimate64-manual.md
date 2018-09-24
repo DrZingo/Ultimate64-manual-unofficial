@@ -15,28 +15,30 @@ What do I need to get started
 * A case to put your Ultimate 64 in. 
 * HDMI cable or standard C64 video cable
 * USB Pen drive
-* Kernal ROM (extract from your commodore 64 or download online)
-* Basic ROM (extract from your commodore 64 or download online)
+* Kernal ROM (extract from your Commodore 64 or download online)
+* Basic ROM (extract from your Commodore 64 or download online)
 
 ### Optional
 * One or two SID chip
-* Keyboard risers (for C64c model case you want this)
+* Keyboard risers (for the C64C model case, you want this)
 * Char ROM (the Ultimate 64 comes with a default char ROM)
 
 
-### Installing
+## Installing
 
 Connect your Ultimate 64 to the wall and your TV/monitor. If you start with
 HDMI your TV/monitor have to be DVI capable over HDMI. You can change this to
 HDMI later.  
 First you have to flash your Kernal and Basic ROM to the Ultimate 64. Power on
 and wait for picture, where it explains how to do. Basically you stick your 
-USB stick in the back of the Ultimate 64 and push shortly on the power button
-to bring up the Menu. Browse to your Kernal image and press enter. Choose 
+USB drive in the back of the Ultimate 64 and push shortly on the power button
+to bring up the Menu. Browse to your Kernal image and press Enter. Choose 
 `Flash as Orig. Kernal ROM`. Do the same with your Basic image and choose 
-`Flash as Orig. Basic ROM`.
+`Flash as Orig. Basic ROM`. Push `F5` and choose `Reboot C64`.
 
-If you install real SID chips, this is how you set the jumpers accordingly.
+### Real SID
+
+If you're installing real SID chips, you have to set the jumpers accordingly.
 If you don't have or don't want to install SID chips you can use the built in
 fpgaSID.
 
@@ -52,30 +54,31 @@ On/Closed: 8580
 Off/Open: 6581
 ```
 
-Now you have to set your SID types in the Ultimate-II menu:  
+Now you have to set your SID types in the Ultimate-II+ menu:  
 `Short press on power button` -> 
 `F2` -> 
 `U64 specific settings` -> 
 Set your types at `SID in socket 1` and `SID in socket 2` 
 
 
-# Menu Settings
+## Menu Settings
 
-To enter the Ultimate-II menu:  
+To enter the Ultimate-II+ menu:  
 `Short push on the power button`
 
 For Ultimate 64, Cartridge, SID, Drive settings etc:  
-`F2` when you are in the Ultimate-II menu  
-`run/stop` takes you back to the browser
-
+`F2` when you are in the Ultimate-II+ menu  
 
 For reset, power off, reboot etc:  
 `F5` brings up options
 
+For navigation help:  
+`F3` will show navigation keys
+
+`run/stop` takes you back to the browser from sub-menus 
+or out of the Ultimate-II+ menu
 
 ## How to use your Ultimate 64
-
-Explain how to use
 
 ### Loading games/demos
 
@@ -120,23 +123,26 @@ Stix                |The stix get stuck in lower right corner.| My guess is it d
 
 Type                |Bug|Extra info
 ----                |---|----------
-Kernal flashing     |Can't flash my homemade kernal, no selection available to flash|Need to check this more, may be my file is corrupt
+Kernal flashing     |Can't flash my homemade kernal, no selection available to flash|Need to check this more, may be my file that is corrupt
 SID player autoconfig|No sound out if SIDplayer autoconfig is enabled and using fpgaSID|Disable autoconfig does the trick
 Vol EmuSID          |Both EmuSID1 and EmuSID2 volume controls affect the volume of fpgaSID1
 
 ## Links
 
-* [Ultimate 64 homepage](https://ultimate64.com/) - 
-* [Facebook group](https://www.facebook.com/groups/1541ultimate)
+* [Ultimate 64 homepage](https://ultimate64.com/)
+* [Facebook group](https://www.facebook.com/groups/1541ultimate) - This is where discussions about
+  the Ultimate products takes place
 * [1541 Ultimate](http://www.1541ultimate.net/content/index.php) - The 1541 Ultimate I, II, and II+ homepage
 
 ## Contributing
 
-Okay, I have stuff to contribute. Now, tell me how?
+Okay, I have stuff to contribute. Now, tell me how?  
 
+Great!  
 Either of these will do:
 
 * Open a pull request at github.  
+* Open an issue at github.  
 * Send contributions to Muppoman via Facebook (link below), The contributions should be well formatted for easy pasting, markdown preferred.
 
 
@@ -144,16 +150,15 @@ Either of these will do:
 
 The WideSc(r)eeners
 
-* **Muppoman** - *Initial work* - [Facebook](https://www.facebook.com/markus.borgelin)
-* **Tuppen** - *Contributor, bug tester* - [Facebook](https://www.facebook.com/hedning.gp)
-* **Wurstmeister** - *Contributor, bug tester* - [Facebook](https://www.facebook.com/daniel.tornqvist.52)
-* **Makaronen** - *Contributor, bug tester* - [Facebook](https://www.facebook.com/nicke.nack.1)
+* **DrZingo** - *Initial work* - [Facebook](https://www.facebook.com/markus.borgelin)
+* **hedning/GP** - *Contributor, bug tester* - [Facebook](https://www.facebook.com/hedning.gp)
+* **Dj_hasse** - *Contributor, bug tester* - [Facebook](https://www.facebook.com/daniel.tornqvist.52)
 
 See also the list of [contributors](https://github.com/DrZingo/Ultimate64-manual-unofficial/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
